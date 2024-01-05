@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.movie-container {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.model-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    width: 245px;
+    height: 170px;
+  }
+}
